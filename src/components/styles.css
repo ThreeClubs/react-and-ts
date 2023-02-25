@@ -29,14 +29,14 @@
   right: 0px;
   border: none;
   font-size: 15px;
-  background-color: #2f74c0;
+  background-color: #0c8179;
   color: white;
   transition: 0.2s all;
   box-shadow: 0 0 10px black;
 }
 
 .input_submit:hover {
-  background-color: #388ae2;
+  background-color: #10aaa0;
 }
 
 .input_submit:active {
@@ -62,11 +62,11 @@
 }
 
 .dragactive {
-  background-color: rgb(0, 221, 236);
+  background-color: rgba(0, 220, 236, 0.805);
 }
 
 .dragcomplete {
-  background-color: rgb(255, 38, 0);
+  background-color: rgba(255, 38, 0, 0.817);
 }
 
 .remove {
@@ -84,7 +84,7 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
-  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  background-image: url("../../public/full-frame-shot-yellow-paper-textured-background.jpg");
   transition: 0.2s;
 }
 

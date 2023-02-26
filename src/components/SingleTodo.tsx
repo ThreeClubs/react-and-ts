@@ -49,6 +49,9 @@ const SingleTodo: React.FC<{
           ref={provided.innerRef}
           className={`todos__single ${snapshot.isDragging ? "drag" : ""}`}
         >
+          <h1 aria-label="task number" className="task__number">
+            {index + 1}
+          </h1>
           {edit ? (
             <input
               value={editTodo}

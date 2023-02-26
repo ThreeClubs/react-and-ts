@@ -133,3 +133,12 @@
     margin-bottom: 10px;
   }
 }
+
+.task__number {
+  color: rgb(2, 76, 81);
+  background-color: rgba(256, 256, 256, 0.8);
+  border-radius: 50%;
+  padding: 5px 15px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
